@@ -1,6 +1,10 @@
+import "../css/style.css";
 const Footer =() =>{
     return(
         <>
+        <div className="footer">
+
+        </div>
         </>
     )
 }

@@ -1,8 +1,8 @@
 //import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from './admin/pages/Home';
-import MainLayout from './admin/Layout/MainLayout';
+import MainLayout from './Layout/MainLayout';
+import Home from './pages/Home';
 function App() {
   return (
     <BrowserRouter>

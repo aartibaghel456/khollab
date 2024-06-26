@@ -1,8 +1,9 @@
+import "../css/style.css";
 const Home =() =>{
     return(
         <>
         <div className="banner">
-            <img src="/assets/image/coming soon.jpeg" alt="checkinout" className="img-responsive"/>
+            <img src="/assets/image/comingsoon2.jpg" alt="checkinout" className="img-responsive"/>
         </div>
         </>
     )

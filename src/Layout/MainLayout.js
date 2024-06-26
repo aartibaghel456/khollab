@@ -6,9 +6,9 @@ const MainLayout = () => {
     return (
       <>
          <div class="body-wrapper">
-    <Header/>
+    {/* <Header/> */}
     <Outlet/>
-    <Footer/>
+    {/* <Footer/> */}
 
 </div>
     
