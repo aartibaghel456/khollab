@@ -1,4 +1,5 @@
 
+import ReactDOM from 'react-dom'
 import Header from "./Header";
 import Footer from "./Footer";
 import { Outlet } from "react-router-dom";
@@ -6,9 +7,9 @@ const MainLayout = () => {
     return (
       <>
          <div class="body-wrapper">
-    {/* <Header/> */}
+    <Header/>
     <Outlet/>
-    {/* <Footer/> */}
+    <Footer/>
 
 </div>
     

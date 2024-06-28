@@ -1,6 +1,14 @@
+.body-wrapper{
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+.banner{
+    height: 633px;
+}
+
 .banner img{
-    width: 100%;
-    height: fit-content;
+    width: 90%;
 }
 
 .footer{
@@ -10,8 +18,99 @@
     padding: 0%;
 }
 .header{
-    height: 0%;
-    width: 0%;
-    margin: 0%;
-    padding: 0%;
+    background-color: #000000;
+    color: #fff;
+    width: 5%;
+
 }
+.footer{
+    background-color: #000000;
+    color: #fff;
+    width: 5%;
+    float: right;
+    height: 100%;
+}
+
+  .leftpane{
+    width: 10%;
+    height: 680px;
+    min-height: 650px;
+    float: left;
+    margin-left: 0%;
+    background-color: #000000;
+    border-collapse: collapse;
+    color: #fff;
+    overflow: hidden;
+    border-right: 1px solid white;
+}
+
+.middlepane{
+   width: 80%;
+   height: available;
+   min-height: 650px;
+   float: left;
+   border-collapse: collapse;
+   overflow: hidden;
+}
+.middlepane img{
+    width: 100%;
+}
+
+.rightpane{
+    position: relative;
+    min-height: 650px;
+    float: right;
+    background-color: #000000;
+    color: #fff;
+    border-collapse: collapse;
+    width: 10%;
+    height: 680px;
+    overflow: hidden;
+    border-left: 1px solid white;
+}
+
+span.test2 {
+    writing-mode: vertical-rl;
+    padding-top: 500px; 
+    padding-left: 50px;
+    
+  }
+  span.uppertest {
+    writing-mode: vertical-rl; 
+    float: right;
+    font-size: 10px;
+    padding-top: 40px;
+  }
+  
+  span.uppertest1 {
+    writing-mode: vertical-rl;
+    float: right;
+    font-size: 14px;
+    padding-top: 40px;
+  }
+  .insta{
+    color: #fff;
+  }
+  .facebook{
+    color: #fff;
+  }
+  span.test {
+    writing-mode: vertical-rl;
+    float: right;
+    padding-top: 95px;
+  }
+  
+  span.test1 {
+    writing-mode: vertical-rl;
+    float: right; 
+  }
+  .follow{
+    height: 200px;
+    padding-right: 40px;
+  }
+  .rights{
+    height: 400px;
+    padding-top: 170px;
+    padding-right: 40px;
+  }
+  

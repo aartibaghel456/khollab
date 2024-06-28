@@ -1,10 +1,12 @@
+import ReactDOM from 'react-dom'
 import "../css/style.css";
 const Header =() =>{
     return(
         <>
-        <div className="header">
-            
-        </div>
+        
+        <div class="leftpane">
+            <span class='test2'>hello@khollab.com</span>
+            </div>
         </>
     )
 }
