@@ -1,116 +1,151 @@
-.body-wrapper{
-    overflow: hidden;
-    margin: 0px;
-    padding: 0px;
-}
-.banner{
-    height: 633px;
+.body-wrapper { 
+  position:relative;
+  font-family: "font-victor-serif";
+  font-size: 1.6rem;
 }
 
-.banner img{
-    width: 90%;
+#myVideo {
+  position:relative;
+  z-index:0;
+  right: 0;
+  bottom: 0;
+  width: 100%; 
+  min-height: 100%;
 }
 
-.footer{
-    height: 0%;
-    width: 0%;
-    margin: 0%;
-    padding: 0%;
-}
-.header{
-    background-color: #000000;
-    color: #fff;
-    width: 5%;
-
-}
-.footer{
-    background-color: #000000;
-    color: #fff;
-    width: 5%;
-    float: right;
-    height: 100%;
+.overlay {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1;
+  color: #f1f1f1;
+  padding: 20px;
 }
 
-  .leftpane{
-    width: 10%;
-    height: 680px;
-    min-height: 650px;
-    float: left;
-    margin-left: 0%;
-    background-color: #000000;
-    border-collapse: collapse;
-    color: #fff;
-    overflow: hidden;
-    border-right: 1px solid white;
+.overlay h2{
+  opacity: 1;
+  visibility: inherit;
+  font-size: 95px;
+  font-weight: 100;
+}
+.studio_header_title{
+  flex: 1;
+  position: relative;
+  z-index: 1;
+  top: 420px;
+  left: 140px;
+}
+.studio_header_right{
+  position: absolute;
+  right: -734px;
+  top: 440px;
 }
 
-.middlepane{
-   width: 80%;
-   height: available;
-   min-height: 650px;
-   float: left;
-   border-collapse: collapse;
-   overflow: hidden;
-}
-.middlepane img{
-    width: 100%;
+em{
+  display: inline-block;
+  margin: 0 -0.1em;
+  padding: 0 0.1em;
+  font-style: italic;
 }
 
-.rightpane{
-    position: relative;
-    min-height: 650px;
-    float: right;
-    background-color: #000000;
-    color: #fff;
-    border-collapse: collapse;
-    width: 10%;
-    height: 680px;
-    overflow: hidden;
-    border-left: 1px solid white;
+.left_nav{
+  float: left;
+  margin-left: 0%;
+  border-collapse: collapse;
+  color: #ffffff;
+  overflow: hidden;
+  border-right: 1px solid white;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
 }
-
 span.test2 {
-    writing-mode: vertical-rl;
-    padding-top: 500px; 
-    padding-left: 50px;
-    
-  }
-  span.uppertest {
-    writing-mode: vertical-rl; 
-    float: right;
-    font-size: 10px;
-    padding-top: 40px;
-  }
+  writing-mode: vertical-rl;
+  padding-top: 500px; 
+  padding-left: 10px;
   
-  span.uppertest1 {
-    writing-mode: vertical-rl;
-    float: right;
-    font-size: 14px;
-    padding-top: 40px;
-  }
-  .insta{
-    color: #fff;
-  }
-  .facebook{
-    color: #fff;
-  }
-  span.test {
-    writing-mode: vertical-rl;
-    float: right;
-    padding-top: 95px;
-  }
-  
-  span.test1 {
-    writing-mode: vertical-rl;
-    float: right; 
-  }
-  .follow{
-    height: 200px;
-    padding-right: 40px;
-  }
-  .rights{
-    height: 400px;
-    padding-top: 170px;
-    padding-right: 40px;
-  }
-  
+}
+
+
+.right_nav{
+  position: absolute;
+  float: right;
+  margin-right: 0%;
+  color: #ffffff;
+  border-collapse: collapse;
+  width: 7%;
+  overflow: hidden;
+  border-left: 1px solid white;
+  position:absolute;
+  top:0;
+  right:0;
+  z-index:1;
+}
+span.uppertest {
+  writing-mode: vertical-rl; 
+  float: right;
+  font-size: 12px;
+  padding-top: 20px;
+  font-weight: 600;
+}
+
+span.uppertest1 {
+  writing-mode: vertical-rl;
+  float: right;
+  font-size: 15px;
+  padding-top: 20px;
+  font-weight: 700;
+}
+span.test {
+  writing-mode: vertical-rl;
+  float: right;
+  padding-top: 95px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+span.test1 {
+  writing-mode: vertical-rl;
+  float: right; 
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 95px;
+}
+.follow{
+  height: 175px;
+  padding-right: 23px;
+  padding-top: 22px;
+}
+.rights{
+  padding-top: 250px;
+  padding-right: 23px;
+}
+.midle{
+  padding-top: 150px;
+  padding-right: 23px;
+}
+span.create {
+  writing-mode: vertical-rl;
+  float: right;
+  padding-top: 23px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+span.brands {
+  writing-mode: vertical-rl;
+  float: right; 
+  font-size: 16px;
+  padding-top: 20px;
+  font-weight: 700;
+}
+.insta{
+  color: #fff;
+}
+.facebook{
+  color: #fff;
+}
