@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/khollab/static/css/main.962cc9a3.css",
-    "main.js": "/khollab/static/js/main.1fb5f897.js",
+    "main.css": "/khollab/static/css/main.d5c46739.css",
+    "main.js": "/khollab/static/js/main.c9ec468a.js",
     "static/js/453.479ecd38.chunk.js": "/khollab/static/js/453.479ecd38.chunk.js",
     "index.html": "/khollab/index.html",
-    "main.962cc9a3.css.map": "/khollab/static/css/main.962cc9a3.css.map",
-    "main.1fb5f897.js.map": "/khollab/static/js/main.1fb5f897.js.map",
+    "main.d5c46739.css.map": "/khollab/static/css/main.d5c46739.css.map",
+    "main.c9ec468a.js.map": "/khollab/static/js/main.c9ec468a.js.map",
     "453.479ecd38.chunk.js.map": "/khollab/static/js/453.479ecd38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.962cc9a3.css",
-    "static/js/main.1fb5f897.js"
+    "static/css/main.d5c46739.css",
+    "static/js/main.c9ec468a.js"
   ]
 }
